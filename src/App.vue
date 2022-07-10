@@ -1,6 +1,6 @@
 <template>
   <router-view/>
-  <span class='author'><a href='https://github.com/AcruxTech'>powered by AcruxTech</a></span>
+  <span class='author'><a href='https://github.com/AcruxTech/trainformuls-vue'>powered by AcruxTech</a></span>
 </template>
 
 <style>
@@ -36,9 +36,6 @@
 } 
 
 #app {
-  background: rgb(255,171,44);
-  background: linear-gradient(166deg, rgba(255,171,44,1) 0%, rgba(25,25,25,1) 100%);
-
   background: rgb(238,174,202);
   background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }

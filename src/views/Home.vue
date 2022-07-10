@@ -4,8 +4,8 @@
       <h1 class='title'>TrainFormuls</h1>
       <h3 class='motto'>everything you need for a successful study of physics</h3>
       <div class='buttons'>
-        <Button text='Let`s start!' color='#fa6400' hover='#fb8332' active='#c85000' route='test'></Button>
-        <Button text='Learn more' color='#fa6400' hover='#fb8332' active='#c85000' route='about'></Button>
+        <Button color='#fa6400' hover='#fb8332' active='#c85000' route='test'>Let`s start!</Button>
+        <Button color='#fa6400' hover='#fb8332' active='#c85000' route='about'>Learn more</Button>
         <!-- change color of second button -->
       </div>
     </div>
