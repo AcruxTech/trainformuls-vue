@@ -1,16 +1,16 @@
 <template>
   <div class='result'>
     <div class='center'>
-      <h1 class='title'>Your result:</h1>
-      <h1 class='points'>98 points (max: 100)</h1>
-      <div class='copy-link'>
-        <label class='text'>share your result with friends: </label>
+      <div class='info margin'>
+        <h1 class='title'>Your result:</h1>
+        <h1 class='points'>98 points (max: 100)</h1>
+      </div>
+      <div class='copy-link margin'>
+        <label class='text'>Share your result with friends: </label>
         <input type='text' class='copy-link-input' value='https://github.com' readonly>
         <button type='button' class='copy-link-button'></button>
       </div>
-      <div class='buttons'>
-        <Button color='#fa6400' hover='#fb8332' active='#c85000' route='test'>Try again</Button>
-      </div>
+      <Button color='#fa6400' hover='#fb8332' active='#c85000' route='test'>Try again</Button>
     </div>
   </div>
 </template>
@@ -36,6 +36,11 @@ export default {
   height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.center {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .title {
@@ -64,7 +69,7 @@ export default {
   line-height: 22px;
 }
 .copy-link {
-  width: 30%;
+  width: 100%;
   height: 4vh;
   display: flex;
   align-items: center;
@@ -96,5 +101,8 @@ export default {
 }
 .copy-link-button:hover {
   background: #ccc;
+}
+.margin {
+  margin-bottom: 5vh;
 }
 </style>
